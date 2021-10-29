@@ -1,0 +1,47 @@
+.login-form{
+    width: 50%;
+    margin:auto;
+    background-color: white;
+}
+
+.login-form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* login image */
+.login-image{
+    
+    width: 100%;
+}
+
+
+.btn-img{
+    width: 15%;
+    border-radius: 50%;
+}
+
+#button{
+    margin-top: 25px;
+    width: 50%;
+    /* margin:auto; */
+    padding: 10px;
+}
+
+.login-form a{
+    text-decoration: none;
+}
+
+#button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+@media only screen and (max-width:688px) {
+    .login-form{
+        width: 90%;
+    }
+    #button{
+        width: 100%;
+    }
+}
