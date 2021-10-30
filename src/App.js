@@ -24,7 +24,7 @@ function App() {
           <Route path="/login">
             <Login></Login>
           </Route>
-          <PrivateRoute path="/placeorder">
+          <PrivateRoute path="/placeorder/:exploreCity">
             <PlaceOrder></PlaceOrder>
           </PrivateRoute>
         </Switch>

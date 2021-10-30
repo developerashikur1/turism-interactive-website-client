@@ -7,7 +7,8 @@ import { useHistory, useLocation } from 'react-router';
 
 
 const Login = () => {
-    const { signInUsingGoogle, user } = useAuth();
+
+    const { signInUsingGoogle } = useAuth();
     const history = useHistory();
     const location = useLocation();
     const redirect_uri = location?.state?.from?.pathname || "/home";

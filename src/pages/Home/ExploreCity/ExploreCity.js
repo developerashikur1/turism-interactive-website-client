@@ -1,17 +1,12 @@
 import React from 'react';
 import { Button, Card, Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import ExploreData from '../../../Hooks/useExploreData';
 import './ExploreCity.css';
 
 const ExploreCity = () => {
-    const images = [
-        { id: "1", img: 'https://i.ibb.co/HrffpG2/Young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel-wellbeing.jpg' },
-        { id: "2", img: 'https://i.ibb.co/HrffpG2/Young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel-wellbeing.jpg' },
-        { id: "3", img: 'https://i.ibb.co/HrffpG2/Young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel-wellbeing.jpg' },
-        { id: "4", img: 'https://i.ibb.co/HrffpG2/Young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel-wellbeing.jpg' },
-        { id: "5", img: 'https://i.ibb.co/HrffpG2/Young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel-wellbeing.jpg' },
-        { id: "6", img: 'https://i.ibb.co/dm4sFWb/1-1.jpg' },
-    ]
+    const { exploreCityData } = ExploreData();
+
 
     return (
         <div className="container mb-5 mt-5">
@@ -22,14 +17,14 @@ const ExploreCity = () => {
             <div>
                 <Row xs={1} md={3} className="g-4">
                     {
-                        images.map(image =>
-                            <Col key={image.id}>
+                        exploreCityData.map(image =>
+                            <Col key={image._id}>
                                 <Card className="services-cards">
 
                                     {/* card image */}
                                     <Card.Img variant="top" src={image.img} />
                                     <Card.Body>
-                                        <Card.Title className="text-secondary">{image.id}</Card.Title>
+                                        <Card.Title className="text-secondary">{image._id}</Card.Title>
 
 
                                         {/* card description */}
@@ -40,7 +35,7 @@ const ExploreCity = () => {
                                     </Card.Body>
 
                                     {/* card button */}
-                                    <Link to="/placeorder">
+                                    <Link to={`/placeorder/${image._id}`}>
                                         <Button className="bg-warning border-0 rounded-0 rounded-bottom" style={{ width: "100%" }}>Purchase Now</Button>
                                     </Link>
                                 </Card>
