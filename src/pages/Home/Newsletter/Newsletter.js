@@ -22,7 +22,7 @@ const Newsletter = () => {
                     {/* input and button */}
                     <Col sm="12" xs="12" md="6" lg="6">
                         <div className="input-group mb-3">
-                            <input type="text" className="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                            <input type="text" className="form-control" placeholder="Your full name" aria-label="Your full name" aria-describedby="basic-addon2" />
 
                             <Button className="bg-warning border-1 border-warning rounded-0 rounded-end">Submit</Button>
 

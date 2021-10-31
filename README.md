@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# VM TRAVELS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the link of my travel site(https://vm-tours.web.app/).
 
-## Available Scripts
+### About World Travel Agency
+World Travel Agency LLC is a Virtuoso Member Travel Agency and is an independent affiliate of Andavo Travel.  Our unique, boutique travel agency is owned and operated by Michael and Cheryl LaBaw.  We are a husband and wife team dedicated to collaborating with our clients to insure they travel well. We are leisure travel specialists.  We capably assist independent and group travelers to insure their river and ocean cruise travel and land destination travel are second to none.  Let us help you organize and plan your travel.  We have personal knowledge of destinations around the world and always do our utmost to provide 100% customer satisfaction!  Please see our Mission, Vision Value Statement, we are passionate about every word written there.
+
+### Luxury Cruise
+Luxury cruising is an easy, convenient way to travel.  You unpack once and experience the best of the region you are visiting. Your luxury cruise’s fare typically includes your on-board accommodations, dining, entertainment and an endless array of activities accompanied by top-notch service.
+
+However, no two luxury cruises or cruise lines are the same and there is a dizzying array of details to consider when booking a luxury cruise. This is an area where we can be extraordinarily helpful in providing you with information and expertise to insure your cruise meets your dreams, needs, desires and budget.
+
+### Land Destinations
+We represent the world’s best land destinations and properties which range from small boutique hotels, large resorts, villas, apartments, lodges, ranches and health retreats.
+
+As Virtuoso travel advisors, we provide exclusive and extra amenities for land destinations that are only available if you book through us.  These include preferred rates and availability, room upgrades, early check-in and late check-out, special perks like spa treatments, dining credits, transfer and museum passes and much more.
+
+
+## Contact Us
+We represent the world’s finest luxury cruise, travel destinations and accommodations. As Virtuoso travel advisors, we provide exclusive and extra amenities for luxury cruise and travel destinations that are only available if you book through us.  We collaborate with a worldwide network of expert local travel providers that live in the countries they serve and have firsthand knowledge and long-standing relationships with all aspects of travel in their countries. Through our knowledge, travel experiences and expertise and these incredible resources we provide “insider” access for luxury cruise and travel destinations all over the globe. Call or contact world travel today to transition your dreams into life-long memories.
 
 In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

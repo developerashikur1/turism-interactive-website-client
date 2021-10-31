@@ -10,7 +10,7 @@ const ExploreCity = () => {
 
     return (
         <div className="container mb-5 mt-5">
-            <h1 className="text-secondary text-center">Explore the City</h1>
+            <h1 className="text-secondary text-center mb-5">Explore the City</h1>
 
 
             {/* all city explore by card */}
@@ -24,19 +24,18 @@ const ExploreCity = () => {
                                     {/* card image */}
                                     <Card.Img variant="top" src={image.img} />
                                     <Card.Body>
-                                        <Card.Title className="text-secondary">{image._id}</Card.Title>
+                                        <Card.Title className="text-secondary">{image.title}</Card.Title>
 
 
                                         {/* card description */}
                                         <Card.Text className="text-secondary">
-                                            This is a longer card with supporting text below as a natural
-                                            lead-in to additional content. This content is a little bit longer.
+                                            {image?.description.slice(0, 250)}
                                         </Card.Text>
                                     </Card.Body>
 
                                     {/* card button */}
                                     <Link to={`/placeorder/${image._id}`}>
-                                        <Button className="bg-warning border-0 rounded-0 rounded-bottom" style={{ width: "100%" }}>Purchase Now</Button>
+                                        <Button className="bg-warning fw-bold border-0 rounded-0 rounded-bottom" style={{ width: "100%" }}>Click to Booking</Button>
                                     </Link>
                                 </Card>
                             </Col>)

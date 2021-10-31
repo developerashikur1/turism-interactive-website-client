@@ -8,6 +8,8 @@ import Footer from './pages/Shared/Footer/Footer';
 import AuthProvider from './Contexts/AuthProvider';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder';
+import MyOrders from './pages/MyOrders/MyOrders';
+import ManageAllOrders from './pages/ManageAllOrders/ManageAllOrders';
 
 function App() {
   return (
@@ -26,6 +28,12 @@ function App() {
           </Route>
           <PrivateRoute path="/placeorder/:exploreCity">
             <PlaceOrder></PlaceOrder>
+          </PrivateRoute>
+          <PrivateRoute path="/myOrders">
+            <MyOrders></MyOrders>
+          </PrivateRoute>
+          <PrivateRoute path="/manageAllOrders">
+            <ManageAllOrders></ManageAllOrders>
           </PrivateRoute>
         </Switch>
         <Footer></Footer>

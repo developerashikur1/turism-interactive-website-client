@@ -1,0 +1,22 @@
+.booking-form form{
+    display: flex;
+    flex-direction:column;
+    gap: 35px;
+    background-color: orange;
+    padding: 50px 30px;
+}
+
+.booking-form form:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.booking-form input{
+    width: 100%;
+    height: 45px;
+    border:1px solid gold;
+    border-radius: 3px;
+}
+
+.place-button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

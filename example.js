@@ -1,9 +1,13 @@
 
-    // const images = [
-    //     { img: 'https://i.ibb.co/HrffpG2/Young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel-wellbeing.jpg' },
-    //     { img: 'https://i.ibb.co/HrffpG2/Young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel-wellbeing.jpg' },
-    //     { img: 'https://i.ibb.co/HrffpG2/Young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel-wellbeing.jpg' },
-    //     { img: 'https://i.ibb.co/HrffpG2/Young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel-wellbeing.jpg' },
-    //     { img: 'https://i.ibb.co/HrffpG2/Young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel-wellbeing.jpg' },
-    //     { img: 'https://i.ibb.co/dm4sFWb/1-1.jpg' },
-    // ]    
+// const images = [
+//     { title: 'Harvard: 70-Minute Hahvahd Tour', description: 'Enjoy a 70-minute tour of America’s oldest university. On the tour you’ll embark on an entertaining journey through Harvard Yard with a current student. Enjoy tales of Harvard’s history and culture as you see famous landmarks and monuments.', img: 'https://i.ibb.co/PCpc6wm/13-american-towns-that-look-exactly-like-places-in-europe-jpg-680x500.png' },
+//     { title: 'American Parks Trail end Rapid City', description: 'Start in Salt Lake City and end in Denver! With the in-depth cultural tour American Parks Trail end Rapid City (Summer 2019), you have a 9 day tour package taking you through Salt Lake City, USA and 12 other destinations in USA. American Parks Trail end Rapid City (Summer 2019) includes accommodation in a hotel as well as an expert guide, meals, transport and more.', img: 'https://i.ibb.co/ZTQnjhZ/93159-ebda51d3-680x500.jpg' },
+//     { title: 'Los Angeles to San Francisco Express', description: 'The company continued to work at its regular pace. In 1972, the P250 Urraco, the 400 GT Jarama, the 400 GT Espada and the P400 Miura SV were in full production. That year, in an attempt to improve sales that were frankly quite disappointing until then, the Jarama hand a 365-hp engine and was dubbed the Jarama S.', img: 'https://i.ibb.co/znvH4Rr/i-Stock-000037401046-XXXLarge-680x500.jpg' },
+//     { title: 'California and the Golden West Summer 2019', description: 'Eum eu sumo albucius perfecto, commodo torquatos consequuntur pro ut, id posse splendide ius. Cu nisl putent omittantur usu, mutat atomorum ex pro, ius nibh nonumy id. Nam at eius dissentias disputando, molestie mnesarchum complectitur per te. In commune pericula mediocritatem per. Cu audiam dolorum appareat per, id habeo suavitate argumentum vel. Te his eros ludus tibique.', img: 'https://i.ibb.co/X2KTTSp/alexei-scutari-481455-unsplash-680x500.jpg' },
+//     { title: 'National Parks Tour One Days', description: 'Start and end in Las Vegas! With the adventure tour National Parks Tour 3 Days, you have a 3 day tour package taking you through Las Vegas, USA and 5 other destinations in USA. National Parks Tour 3 Days is a small group tour that includes accommodation as well as an expert guide, meals, transport and more.', img: 'https://i.ibb.co/L68Vr0c/tour-img-755014-145-1-680x500.jpg' },
+//     { title: 'New York: Museum of Modern Art', description: 'The Museum of Modern Art is a place that fuels creativity, challenges minds, and provides inspiration. With extraordinary exhibitions and the world’s finest collection of modern and contemporary art, MoMA is dedicated to the conversation between the past and the present, the established and the experimental. Purchase your admission and skip the lines to one of the world’s most celebrated art museums.', img: 'https://i.ibb.co/QkL0fBT/Indipendant-Travel1-2000x1250-680x500.jpg' },
+// ]
+
+
+
+
