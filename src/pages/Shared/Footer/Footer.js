@@ -21,11 +21,7 @@ const Footer = () => {
                         <Nav.Link className="text-warning fs-5 " as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link className="text-warning fs-5 " as={Link} to="/myOrders">My Orders</Nav.Link>
                         <Nav.Link className="text-warning fs-5" as={Link} to="/manageAllOrders">Manage All Orders</Nav.Link>
-                        {/* <Nav.Link className="text-secondary fs-5 fw-bold" as={Link} to="/placeorder">Place Order</Nav.Link> */}
-                        {
-                            !user.email ? <Nav.Link className="text-secondary fs-5 fw-bold" as={Link} to="/login">Login</Nav.Link> : ''
-                        }
-                        <br />
+
                         {
                             user.email ?
                                 <Button onClick={logOut} variant="danger" size="sm">

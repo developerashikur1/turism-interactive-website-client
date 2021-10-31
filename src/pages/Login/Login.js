@@ -21,7 +21,7 @@ const Login = () => {
     }
 
     return (
-        <div className="container mt-5">
+        <div className="container mt-5 mb-5">
             <div className="login-form">
 
                 {/* login form */}
