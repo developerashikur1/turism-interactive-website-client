@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Button, Card, Col, Row, Spinner } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import ExploreData from '../../../Hooks/useExploreData';
@@ -8,41 +9,40 @@ const ExploreCity = () => {
 
     return (
         <div className="container mb-5 mt-5">
-            <Spinner style={{ display: 'none', textAlign: 'center' }} animation="grow" variant="warning" />
+
+            {/* spinner added */}
             <h1 className="text-secondary text-center mb-5">Explore the City</h1>
-
-
             {/* all city explore by card */}
-            <div>
-                <Row xs={1} md={3} className="g-4">
-                    {
-                        exploreCityData.map(image =>
-                            <Col key={image._id}>
-                                <Card className="services-cards">
+            {
+                exploreCityData.length === 0 ? <Spinner animation="grow" variant="warning" /> :
+                    <div>
+                        <Row xs={1} md={3} className="g-4">
+                            {
+                                exploreCityData.map(image =>
+                                    <Col key={image._id}>
+                                        <Card className="services-cards">
 
-                                    {/* card image */}
-                                    <Card.Img variant="top" src={image.img} />
-                                    <Card.Body>
-                                        <Card.Title className="text-secondary">{image.title}</Card.Title>
+                                            {/* card image */}
+                                            <Card.Img variant="top" src={image.img} />
+                                            <Card.Body>
+                                                <Card.Title className="text-secondary">{image.title}</Card.Title>
 
 
-                                        {/* card description */}
-                                        <Card.Text className="text-secondary">
-                                            {image?.description.slice(0, 250)}
-                                        </Card.Text>
-                                    </Card.Body>
+                                                {/* card description */}
+                                                <Card.Text className="text-secondary">
+                                                    {image?.description.slice(0, 250)}
+                                                </Card.Text>
+                                            </Card.Body>
 
-                                    {/* card button */}
-                                    <Link to={`/placeorder/${image._id}`}>
-                                        <Button className="bg-warning fw-bold border-0 rounded-0 rounded-bottom" style={{ width: "100%" }}>Click to Booking</Button>
-                                    </Link>
-                                </Card>
-                            </Col>)
-                    }
-                </Row>
-
-                <Spinner style={{ display: 'block' }} animation="grow" variant="warning" />
-            </div>
+                                            {/* card button */}
+                                            <Link to={`/placeorder/${image._id}`}>
+                                                <Button className="bg-warning fw-bold border-0 rounded-0 rounded-bottom" style={{ width: "100%" }}>Click to Booking</Button>
+                                            </Link>
+                                        </Card>
+                                    </Col>)
+                            }
+                        </Row>
+                    </div>}
         </div>
     );
 };
