@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Button, Card, Col, Row, Spinner } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import ExploreData from '../../../Hooks/useExploreData';

@@ -21,6 +21,7 @@ const Footer = () => {
                         <Nav.Link className="text-warning fs-5 " as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link className="text-warning fs-5 " as={Link} to="/myOrders">My Orders</Nav.Link>
                         <Nav.Link className="text-warning fs-5" as={Link} to="/manageAllOrders">Manage All Orders</Nav.Link>
+                        <Nav.Link className="text-warning fs-5" as={Link} to="/addNewService">Add a New Service</Nav.Link>
 
                         {
                             user.email ?

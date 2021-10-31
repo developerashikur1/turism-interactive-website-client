@@ -30,7 +30,7 @@ const Header = () => {
                         <Nav.Link className="text-secondary fs-5 fw-bold" as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link className="text-secondary fs-5 fw-bold" as={Link} to="/myOrders">My Orders</Nav.Link>
                         <Nav.Link className="text-secondary fs-5 fw-bold" as={Link} to="/manageAllOrders">Manage All Orders</Nav.Link>
-                        {/* <Nav.Link className="text-secondary fs-5 fw-bold" as={Link} to="/placeorder">Place Order</Nav.Link> */}
+                        <Nav.Link className="text-secondary fs-5 fw-bold" as={Link} to="/addNewService">Add a New Service</Nav.Link>
                         {
                             !user.email ? <Nav.Link className="text-secondary fs-5 fw-bold" as={Link} to="/login">Login</Nav.Link> : ''
                         }

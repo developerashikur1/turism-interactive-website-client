@@ -1,0 +1,43 @@
+.new-service form{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.new-service input{
+    height: 50px;
+    margin: auto;
+    width: 75%;
+    border: none;
+    box-shadow: 2px 2px 3px goldenrod;
+}
+
+
+.new-service textarea{
+    height: 100px;
+    margin: auto;
+    width: 75%;
+    border: none;
+    box-shadow: 2px 2px 3px goldenrod;
+}
+
+.new-service input:hover, textarea:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.submit-button-service{
+    color: whitesmoke;
+    background-color: goldenrod;
+}
+
+
+@media only screen and (max-width:688px) {
+    .new-service input {
+        width: 100%;
+    }
+    .new-service textarea {
+        width: 100%;
+    }
+    
+}

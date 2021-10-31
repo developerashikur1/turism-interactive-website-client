@@ -10,6 +10,7 @@ import PrivateRoute from './PrivateRoute/PrivateRoute';
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder';
 import MyOrders from './pages/MyOrders/MyOrders';
 import ManageAllOrders from './pages/ManageAllOrders/ManageAllOrders';
+import AddNewService from './pages/AddNewService/AddNewService';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           </PrivateRoute>
           <PrivateRoute path="/manageAllOrders">
             <ManageAllOrders></ManageAllOrders>
+          </PrivateRoute>
+          <PrivateRoute path="/addNewService">
+            <AddNewService></AddNewService>
           </PrivateRoute>
         </Switch>
         <Footer></Footer>
