@@ -59,6 +59,7 @@ const MyOrders = () => {
 
 
 
+            {/* orders card */}
             <Row xs={1} md={2} className="g-4">
                 {
                     orders.map(order => <Col
@@ -68,6 +69,7 @@ const MyOrders = () => {
                             <Row>
                                 <div className="row rounded">
 
+                                    {/* card picture */}
                                     <div
                                         style={{
                                             overflow: 'hidden',
@@ -81,6 +83,9 @@ const MyOrders = () => {
                                             <p className="card-text">{order.description}</p>
                                             <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                             <br />
+
+
+                                            {/* card button */}
                                             <Button className="bg-warning text-secondary border-0 rounded fw-bold text-white" onClick={() => handleOrderCancel(order._id)}>Cancel Order</Button>
                                         </div>
                                     </div>

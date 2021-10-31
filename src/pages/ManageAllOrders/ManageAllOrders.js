@@ -91,7 +91,9 @@ const ManageAllOrders = () => {
                         {
                             !usersChoice.length > 0 ?
 
-                                <div>
+                                < div >
+
+                                    {/* attention accordion */}
                                     <Accordion defaultActiveKey="0">
                                         <Accordion.Item eventKey="1">
                                             <Accordion.Header
@@ -111,7 +113,11 @@ const ManageAllOrders = () => {
                                 :
 
                                 < Table striped bordered hover variant="dark">
+
+                                    {/* order table */}
                                     <thead>
+
+                                        {/* table header */}
                                         <tr>
                                             <th>Id</th>
                                             <th>user name</th>
@@ -127,6 +133,8 @@ const ManageAllOrders = () => {
                                                 <td># {userChoice._id.slice(0, 4)}</td>
                                                 <td>{userChoice.userName}</td>
                                                 <td>{userChoice.title}</td>
+
+                                                {/* table button */}
                                                 <td>
                                                     <Button onClick={() => handleDeleteOrders(userChoice._id)} variant="danger" size="sm">
                                                         Cancel Order

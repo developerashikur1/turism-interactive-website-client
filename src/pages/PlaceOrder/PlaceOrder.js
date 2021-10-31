@@ -13,8 +13,7 @@ const PlaceOrder = () => {
     // console.log(user.email)
     const [chooseCity, setChooseCity] = useState({});
 
-    // extra
-    // const [users, setUsers] = useState({ email: "", firstname: "" });
+
 
     const { register, handleSubmit, reset } = useForm({ defaultValues: { email: user?.email } });
 
@@ -76,7 +75,6 @@ const PlaceOrder = () => {
                                 <p className="text-secondary">
                                     {chooseCity?.description}
                                 </p>
-                                <Button>Booking Now</Button>
                             </Col>
                         </Row>
                     </Col>

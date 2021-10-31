@@ -1,5 +1,4 @@
-import React from 'react';
-import { Button, Card, Col, Row } from 'react-bootstrap';
+import { Button, Card, Col, Row, Spinner } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import ExploreData from '../../../Hooks/useExploreData';
 import './ExploreCity.css';
@@ -7,9 +6,9 @@ import './ExploreCity.css';
 const ExploreCity = () => {
     const { exploreCityData } = ExploreData();
 
-
     return (
         <div className="container mb-5 mt-5">
+            <Spinner style={{ display: 'none', textAlign: 'center' }} animation="grow" variant="warning" />
             <h1 className="text-secondary text-center mb-5">Explore the City</h1>
 
 
@@ -41,6 +40,8 @@ const ExploreCity = () => {
                             </Col>)
                     }
                 </Row>
+
+                <Spinner style={{ display: 'block' }} animation="grow" variant="warning" />
             </div>
         </div>
     );
